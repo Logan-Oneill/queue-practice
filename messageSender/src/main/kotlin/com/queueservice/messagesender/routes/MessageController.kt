@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/enqueueMessage")
-class messageController(
+class MessageController(
     val messageService: MessageService
 ) {
 
